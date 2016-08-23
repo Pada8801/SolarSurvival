@@ -348,8 +348,6 @@ void ASolarSurvivalCharacter::Stop_Sprint()
 	FString testString = FString::SanitizeFloat(GetAbilitySystemComponent()->GetCharacterAttributes()->Health);
  	DrawDebugString(GetWorld(), testVector, testString, NULL, FColor::Red, 1.0f);
 
-	GetAbilitySystemComponent()->GetCharacterAttributes()->Health -= 10.0f;
-
 }
 
 USolarAbilitySystemComponent* ASolarSurvivalCharacter::GetAbilitySystemComponent()
