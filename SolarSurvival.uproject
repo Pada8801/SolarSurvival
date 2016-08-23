@@ -1,0 +1,36 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "SolarSurvival",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine",
+				"GameplayAbilities"
+			]
+		},
+		{
+			"Name": "SolarSurvivalServer",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"AIModule"
+			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "EpicSurvey",
+			"Enabled": false
+		}
+	],
+	"TargetPlatforms": [
+		"WindowsNoEditor",
+		"XboxOne",
+		"PS4"
+	]
+}

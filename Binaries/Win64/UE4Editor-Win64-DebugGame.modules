@@ -1,0 +1,9 @@
+{
+	"Changelist" : 0,
+	"BuildId" : "140db66a-82aa-4c31-b778-e09a12aca16c",
+	"Modules" : 
+	{
+		"SolarSurvival" : "UE4Editor-SolarSurvival-Win64-DebugGame.dll",
+		"SolarSurvivalServer" : "UE4Editor-SolarSurvivalServer-Win64-DebugGame.dll"
+	}
+}
