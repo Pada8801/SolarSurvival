@@ -366,3 +366,13 @@ USolarAbilitySystemComponent* ASolarSurvivalCharacter::GetAbilitySystemComponent
 // 	//wroteSomething |= channel->ReplicateSubobject(MyAwesomeItem, *bunch, *repFlags);
 // 	return wroteSomething;
 // }
+
+// bool ASolarSurvivalCharacter::ReplicateSubobjects(UActorChannel* channel, FOutBunch* bunch, FReplicationFlags* repFlags) 
+// {
+// 	check(channel && bunch && repFlags);
+// 
+// 	bool wroteSomething = Super::ReplicateSubobjects(channel, bunch, repFlags);
+// 
+// 	//wroteSomething |= channel->ReplicateSubobject(MyAwesomeItem, *bunch, *repFlags);
+// 	return wroteSomething;
+// }
